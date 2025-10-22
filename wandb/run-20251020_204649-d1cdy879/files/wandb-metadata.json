@@ -1,0 +1,17 @@
+{
+  "os": "Linux-5.4.0-211-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.19",
+  "startedAt": "2025-10-20T20:46:49.564470Z",
+  "program": "/home/kennicetee/fa25-nmep-hw3/wandb_test.py",
+  "codePath": "wandb_test.py",
+  "codePathLocal": "wandb_test.py",
+  "git": {
+    "remote": "git@github.com:mlberkeley/fa25-nmep-hw3.git",
+    "commit": "801fc061d6d438c291b5eade823c87e934837f9c"
+  },
+  "email": "kennicetee@gmail.com",
+  "root": "/home/kennicetee/fa25-nmep-hw3",
+  "host": "honeydew",
+  "executable": "/home/kennicetee/miniconda3/envs/vision-zoo/bin/python",
+  "writerId": "lqimk6v2zb22ks1x93jcbfxwvu1m1ome"
+}

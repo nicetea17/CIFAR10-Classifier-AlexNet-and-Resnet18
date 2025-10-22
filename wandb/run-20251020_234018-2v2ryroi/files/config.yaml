@@ -1,0 +1,117 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            c36327b4fmygbbafhbyvd1udlm66yjq5:
+                args:
+                    - --cfg=configs/alexnet_base.yaml
+                codePath: main.py
+                codePathLocal: main.py
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "12.3"
+                disk:
+                    /:
+                        total: "105089261568"
+                        used: "51670134784"
+                email: kennicetee@gmail.com
+                executable: /home/kennicetee/miniconda3/envs/vision-zoo/bin/python
+                git:
+                    commit: 801fc061d6d438c291b5eade823c87e934837f9c
+                    remote: git@github.com:mlberkeley/fa25-nmep-hw3.git
+                gpu: NVIDIA GeForce RTX 2080 Ti
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-2e89cc8f-eb28-b1ec-2dcf-699101b6e432
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-fabf7b09-c7f1-46a9-5058-30e840e0acb7
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-c653f903-3eb5-d41f-0c30-5adb7e157145
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-156c2d5e-66ce-702b-0d77-05190669312a
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-b36a441b-b786-9e23-78fa-2844b1b9c2fe
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-2cb5a7f5-be2d-7948-0919-0c244362b17b
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-c6fcc408-6fce-825c-087d-b07aebeb2a30
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-1ff65474-8e6d-561f-5373-d39b881225a0
+                host: honeydew
+                memory:
+                    total: "540669358080"
+                os: Linux-5.4.0-211-generic-x86_64-with-glibc2.31
+                program: /home/kennicetee/fa25-nmep-hw3/main.py
+                python: CPython 3.10.19
+                root: /home/kennicetee/fa25-nmep-hw3
+                startedAt: "2025-10-20T23:40:18.820623Z"
+                writerId: c36327b4fmygbbafhbyvd1udlm66yjq5
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 63
+            "2":
+                - 1
+                - 41
+                - 49
+                - 63
+            "3":
+                - 2
+                - 3
+                - 13
+                - 16
+            "4": 3.10.19
+            "5": 0.22.2
+            "12": 0.22.2
+            "13": linux-x86_64
+batch_size:
+    value: 1
+dataset:
+    value: cifar10
+drop_rate:
+    value: 0
+epochs:
+    value: 5
+flops_m:
+    value: 42.660096
+img_size:
+    value: 70
+learning_rate:
+    value: 0.0003
+num_classes:
+    value: 200
+optimizer:
+    value: adamw
+params_m:
+    value: 4.890752
+scheduler:
+    value: cosine

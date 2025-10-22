@@ -1,0 +1,53 @@
+[32m[2025-10-21 00:18:02 alexnet][0m[33m(main.py 107)[0m: INFO Start training
+                                                                                                                                                                     
+[32m[2025-10-21 00:19:05 alexnet][0m[33m(main.py 194)[0m: INFO Train: [0/5]	lr 0.000300	time 0.0038 (0.0051)	loss 1.8058 (1.9484)	Acc@1 25.000 (24.544)	Mem 112MB
+[32m[2025-10-21 00:19:05 alexnet][0m[33m(main.py 203)[0m: INFO EPOCH 0 training takes 0:01:03
+[32m[2025-10-21 00:19:05 alexnet][0m[33m(main.py 113)[0m: INFO  * Train Acc 24.544 Train Loss 1.948
+[32m[2025-10-21 00:19:05 alexnet][0m[33m(main.py 114)[0m: INFO Accuracy of the network on the 50000 train images: 24.5%
+[32m[2025-10-21 00:19:12 alexnet][0m[33m(main.py 236)[0m: INFO Validate: 	Time 0.003 (0.003)	Loss 1.3734 (1.6780)	Acc@1 75.000 (36.650)	Mem 112MB
+[32m[2025-10-21 00:19:12 alexnet][0m[33m(main.py 118)[0m: INFO  * Val Acc 36.650 Val Loss 1.678
+[32m[2025-10-21 00:19:12 alexnet][0m[33m(main.py 119)[0m: INFO Accuracy of the network on the 10000 val images: 36.6%
+[32m[2025-10-21 00:19:12 alexnet][0m[33m(load_save.py 48)[0m: INFO output/alexnet/ckpt_best.pth saving......
+[32m[2025-10-21 00:19:12 alexnet][0m[33m(load_save.py 50)[0m: INFO output/alexnet/ckpt_best.pth saved !!!
+[32m[2025-10-21 00:19:12 alexnet][0m[33m(main.py 128)[0m: INFO Max accuracy: 36.65%
+
+[32m[2025-10-21 00:20:15 alexnet][0m[33m(main.py 194)[0m: INFO Train: [1/5]	lr 0.000271	time 0.0044 (0.0050)	loss 2.2817 (1.6614)	Acc@1 25.000 (37.848)	Mem 112MB
+[32m[2025-10-21 00:20:15 alexnet][0m[33m(main.py 203)[0m: INFO EPOCH 1 training takes 0:01:02
+[32m[2025-10-21 00:20:15 alexnet][0m[33m(main.py 113)[0m: INFO  * Train Acc 37.848 Train Loss 1.661
+[32m[2025-10-21 00:20:15 alexnet][0m[33m(main.py 114)[0m: INFO Accuracy of the network on the 50000 train images: 37.8%
+[32m[2025-10-21 00:20:21 alexnet][0m[33m(main.py 236)[0m: INFO Validate: 	Time 0.002 (0.003)	Loss 1.3071 (1.6051)	Acc@1 50.000 (40.290)	Mem 112MB
+[32m[2025-10-21 00:20:21 alexnet][0m[33m(main.py 118)[0m: INFO  * Val Acc 40.290 Val Loss 1.605
+[32m[2025-10-21 00:20:21 alexnet][0m[33m(main.py 119)[0m: INFO Accuracy of the network on the 10000 val images: 40.3%
+[32m[2025-10-21 00:20:21 alexnet][0m[33m(main.py 128)[0m: INFO Max accuracy: 40.29%
+
+[32m[2025-10-21 00:21:23 alexnet][0m[33m(main.py 194)[0m: INFO Train: [2/5]	lr 0.000196	time 0.0040 (0.0049)	loss 1.2376 (1.5187)	Acc@1 25.000 (44.476)	Mem 112MB
+[32m[2025-10-21 00:21:23 alexnet][0m[33m(main.py 203)[0m: INFO EPOCH 2 training takes 0:01:01
+[32m[2025-10-21 00:21:23 alexnet][0m[33m(main.py 113)[0m: INFO  * Train Acc 44.476 Train Loss 1.519
+[32m[2025-10-21 00:21:23 alexnet][0m[33m(main.py 114)[0m: INFO Accuracy of the network on the 50000 train images: 44.5%
+[32m[2025-10-21 00:21:29 alexnet][0m[33m(main.py 236)[0m: INFO Validate: 	Time 0.002 (0.003)	Loss 0.9743 (1.4209)	Acc@1 75.000 (49.390)	Mem 112MB
+[32m[2025-10-21 00:21:29 alexnet][0m[33m(main.py 118)[0m: INFO  * Val Acc 49.390 Val Loss 1.421
+[32m[2025-10-21 00:21:29 alexnet][0m[33m(main.py 119)[0m: INFO Accuracy of the network on the 10000 val images: 49.4%
+[32m[2025-10-21 00:21:29 alexnet][0m[33m(main.py 128)[0m: INFO Max accuracy: 49.39%
+
+[32m[2025-10-21 00:22:32 alexnet][0m[33m(main.py 194)[0m: INFO Train: [3/5]	lr 0.000104	time 0.0043 (0.0050)	loss 1.9310 (1.3718)	Acc@1 25.000 (50.760)	Mem 112MB
+[32m[2025-10-21 00:22:32 alexnet][0m[33m(main.py 203)[0m: INFO EPOCH 3 training takes 0:01:02
+[32m[2025-10-21 00:22:32 alexnet][0m[33m(main.py 113)[0m: INFO  * Train Acc 50.760 Train Loss 1.372
+[32m[2025-10-21 00:22:32 alexnet][0m[33m(main.py 114)[0m: INFO Accuracy of the network on the 50000 train images: 50.8%
+[32m[2025-10-21 00:22:39 alexnet][0m[33m(main.py 236)[0m: INFO Validate: 	Time 0.002 (0.003)	Loss 0.6387 (1.2958)	Acc@1 100.000 (56.020)	Mem 112MB
+[32m[2025-10-21 00:22:39 alexnet][0m[33m(main.py 118)[0m: INFO  * Val Acc 56.020 Val Loss 1.296
+[32m[2025-10-21 00:22:39 alexnet][0m[33m(main.py 119)[0m: INFO Accuracy of the network on the 10000 val images: 56.0%
+[32m[2025-10-21 00:22:39 alexnet][0m[33m(main.py 128)[0m: INFO Max accuracy: 56.02%
+
+[32m[2025-10-21 00:23:41 alexnet][0m[33m(main.py 194)[0m: INFO Train: [4/5]	lr 0.000029	time 0.0040 (0.0050)	loss 1.8029 (1.2486)	Acc@1 50.000 (55.634)	Mem 112MB
+[32m[2025-10-21 00:23:41 alexnet][0m[33m(main.py 203)[0m: INFO EPOCH 4 training takes 0:01:02
+[32m[2025-10-21 00:23:41 alexnet][0m[33m(main.py 113)[0m: INFO  * Train Acc 55.634 Train Loss 1.249
+[32m[2025-10-21 00:23:41 alexnet][0m[33m(main.py 114)[0m: INFO Accuracy of the network on the 50000 train images: 55.6%
+[32m[2025-10-21 00:23:47 alexnet][0m[33m(main.py 236)[0m: INFO Validate: 	Time 0.002 (0.003)	Loss 0.6359 (1.2213)	Acc@1 75.000 (58.180)	Mem 112MB
+[32m[2025-10-21 00:23:47 alexnet][0m[33m(main.py 118)[0m: INFO  * Val Acc 58.180 Val Loss 1.221
+[32m[2025-10-21 00:23:47 alexnet][0m[33m(main.py 119)[0m: INFO Accuracy of the network on the 10000 val images: 58.2%
+[32m[2025-10-21 00:23:47 alexnet][0m[33m(load_save.py 48)[0m: INFO output/alexnet/ckpt_best.pth saving......
+[32m[2025-10-21 00:23:48 alexnet][0m[33m(load_save.py 50)[0m: INFO output/alexnet/ckpt_best.pth saved !!!
+[32m[2025-10-21 00:23:48 alexnet][0m[33m(main.py 128)[0m: INFO Max accuracy: 58.18%
+
+[32m[2025-10-21 00:23:48 alexnet][0m[33m(main.py 154)[0m: INFO Training time 0:05:45
+[32m[2025-10-21 00:23:48 alexnet][0m[33m(main.py 156)[0m: INFO Start testing

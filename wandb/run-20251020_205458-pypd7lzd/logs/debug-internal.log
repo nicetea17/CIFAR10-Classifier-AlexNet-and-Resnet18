@@ -1,0 +1,12 @@
+{"time":"2025-10-20T20:54:58.304654979Z","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-20T20:54:58.559623074Z","level":"INFO","msg":"stream: created new stream","id":"pypd7lzd"}
+{"time":"2025-10-20T20:54:58.559759626Z","level":"INFO","msg":"handler: started","stream_id":"pypd7lzd"}
+{"time":"2025-10-20T20:54:58.559938984Z","level":"INFO","msg":"stream: started","id":"pypd7lzd"}
+{"time":"2025-10-20T20:54:58.559964163Z","level":"INFO","msg":"writer: started","stream_id":"pypd7lzd"}
+{"time":"2025-10-20T20:54:58.559979806Z","level":"INFO","msg":"sender: started","stream_id":"pypd7lzd"}
+{"time":"2025-10-20T20:59:19.763425057Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.006170715}],"total_operations":1}}
+{"time":"2025-10-20T20:59:20.378654737Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T20:59:20.560328717Z","level":"INFO","msg":"stream: closing","id":"pypd7lzd"}
+{"time":"2025-10-20T20:59:20.560361335Z","level":"INFO","msg":"handler: closed","stream_id":"pypd7lzd"}
+{"time":"2025-10-20T20:59:20.56048373Z","level":"INFO","msg":"sender: closed","stream_id":"pypd7lzd"}
+{"time":"2025-10-20T20:59:20.560500113Z","level":"INFO","msg":"stream: closed","id":"pypd7lzd"}

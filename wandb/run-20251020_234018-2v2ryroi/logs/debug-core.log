@@ -1,0 +1,16 @@
+{"time":"2025-10-20T23:40:18.851978886Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpid25uanj/port-2824496.txt","pid":2824496,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-10-20T23:40:18.85491938Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":2824496}
+{"time":"2025-10-20T23:40:18.854847833Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-2824496-2824561-2465516294/socket","Net":"unix"}}
+{"time":"2025-10-20T23:40:19.033067852Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-10-20T23:40:19.042717809Z","level":"INFO","msg":"handleInformInit: received","streamId":"2v2ryroi","id":"1(@)"}
+{"time":"2025-10-20T23:40:19.283001679Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"2v2ryroi","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.883624534Z","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"2v2ryroi","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.892488091Z","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"2v2ryroi","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.892528554Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.892553543Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.892574269Z","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.89262734Z","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.892639251Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2025-10-21T00:02:30.892630485Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-10-21T00:02:30.892778053Z","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-2824496-2824561-2465516294/socket","Net":"unix"}}
+{"time":"2025-10-21T00:02:30.89283525Z","level":"INFO","msg":"server is closed"}

@@ -1,0 +1,1 @@
+{"_runtime":42,"train_loss":2.3056084188842774,"epoch_time_sec":7.664480924606323,"max_val_acc":11.739999958801269,"_wandb":{"runtime":42},"learning_rate":0,"throughput_images_per_sec":267.20661453080635,"_timestamp":1.761006919498303e+09,"train_acc":10.284000004882813,"epoch":4,"val_loss":2.3003875457763674,"val_acc":10.1100000289917,"_step":4}

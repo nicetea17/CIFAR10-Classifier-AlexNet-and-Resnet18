@@ -1,0 +1,29 @@
+[32m[2025-10-21 00:44:44 alexnet][0m[33m(main.py 107)[0m: INFO Start training
+Traceback (most recent call last):                                                                                                                                   
+  File "/home/kennicetee/fa25-nmep-hw3/main.py", line 280, in <module>
+    main(config)
+  File "/home/kennicetee/fa25-nmep-hw3/main.py", line 112, in main
+    train_acc1, train_loss = train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch)
+  File "/home/kennicetee/fa25-nmep-hw3/main.py", line 180, in train_one_epoch
+    outputs = model(samples)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kennicetee/fa25-nmep-hw3/models/alexnet.py", line 38, in forward
+    x = self.classifier(x)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/modules/dropout.py", line 70, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/home/kennicetee/miniconda3/envs/vision-zoo/lib/python3.10/site-packages/torch/nn/functional.py", line 1425, in dropout
+    _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.12 GiB. GPU 0 has a total capacity of 10.75 GiB of which 149.25 MiB is free. Process 271177 has 588.00 MiB memory in use. Including non-PyTorch memory, this process has 10.01 GiB memory in use. Of the allocated memory 9.24 GiB is allocated by PyTorch, and 602.91 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,1 @@
+{"max_val_acc":77.45,"train_loss":0.01617897829771042,"val_acc":77.41,"_wandb":{"runtime":370},"epoch":49,"_timestamp":1.7610021708728988e+09,"val_loss":1.562896072769165,"epoch_time_sec":11.208309173583984,"_runtime":370,"train_acc":99.588,"_step":49,"learning_rate":0}
